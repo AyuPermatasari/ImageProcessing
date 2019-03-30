@@ -36,7 +36,7 @@ namespace imgProc1
         {
             if (pbInput == null)
             {
-                MessageBox.Show("Tidak ada citra yang akan disimpan");
+                MessageBox.Show("Tidak ada citra yang akan disimpan/ not save");
             } else
             {
                 SaveFileDialog simpanFile = new SaveFileDialog();
